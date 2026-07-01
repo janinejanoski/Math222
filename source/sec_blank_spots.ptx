@@ -1,0 +1,51 @@
+<section>
+  <title>Blank Spots and Big Writing Space</title>
+  
+  <slide>
+    <title>Prime and Composite Numbers</title>
+    <p>
+      An integer <m>n\gt 1</m> is <term>prime</term> provided that the only positive integers dividing <m>n</m> are <m component="a">1</m><m component="b">\phantom{11}</m> and <m component="a">n</m><m component="b">\phantom{nn}</m>
+    </p>
+    <p>
+      An integer <m>n\gt 1</m> is <term>composite</term> provided that there exists an integer <m>m</m> such that <m component="a">1\lt m\lt n</m><m component="b">\phantom{1\lt m\lt n}</m> and <m component="a">m\mid n</m><m component="b">\phantom{m\mid n}</m>
+    </p>      
+  </slide>
+  <slide>
+    <title>Activity</title>
+    <p>
+      Is the following statement true?
+    </p>
+    <p>
+      <q>If <m>n\gt 1</m> is an integer, then <m>n</m> is either prime or composite but not both.</q>
+    </p>
+    <p component="a">
+      <ul>
+        <li>
+          <p>
+            This is <em>true</em> because negating the definition of prime gives the definition of composite.
+          </p>
+        </li>
+        <li>
+          <p>
+            We cannot have free variables in something we plan to prove. Any variable that is not explicitly quantified is assumed to have a universal quantifer applied.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </slide>
+  <slide>
+    <title>Mid-Slide Whitespace</title>
+    <p>
+      Suppose we want some space between these paragraphs to write in.
+    </p>
+    <p component="b">
+      <nbsp/>
+    </p>
+    <p component="a">
+      Here's what goes onto the annotated page.
+    </p>
+    <p>
+      This comes next.
+    </p>
+  </slide>
+</section>

@@ -1,0 +1,48 @@
+<section>
+  <title>Pausing</title>
+  <slide>
+    <title>Pauses</title>
+    <p>
+      Pauses are not great in slides you intend to <em>annotate</em>, as what you wrote one goes away as you advance through the slides.
+    </p>
+  </slide>
+  <slide>
+    <title>Floor and ceiling functions</title>
+    <p>
+      This demonstrates pausing between list items.
+    </p>
+    <p>
+      <ul pause="yes">
+        <li >
+          <p>
+            The <term>floor function</term> <m>\lfloor\cdot\rfloor\colon \R\to\Z</m> is defined by
+            <md>
+              \lfloor x\rfloor = \text{the greatest integer }y\leq x
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            The <term>celing function</term> <m>\lceil\cdot\rceil\colon \R\to\Z</m> is defined by
+            <md>
+              \lceil x\rceil = \text{the least integer }z\geq x
+            </md>
+          </p>
+        </li>          
+      </ul>
+    </p>
+  </slide>
+  <slide>
+    <title>Mid-Slide Pause</title>
+    
+    <p>
+      A <term>tree</term> is a connected graph that has no cycles. A <term>forest</term> is a graph with no cycles.
+    </p>
+    
+    
+    <p pause="yes">
+      A <term>rooted tree</term> is a tree with a special vertex designated as the <term>root</term>. Computer scientists are not botanists, so they draw rooted trees with the root at the top. The <term>level</term> of a vertex is its distance from the root. The <term>height</term> of a tree is the largest vertex level.
+    </p>
+  </slide>
+  
+</section>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  
+  <docinfo>
+    <macros>
+      \newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\,d#4}
+      \newcommand{\Z}{\mathbb{Z}}
+      \newcommand{\R}{\mathbb{R}}
+      \newcommand{\Q}{\mathbb{Q}}
+      \newcommand{\N}{\mathbb{N}}
+      \newcommand{\empset}{\{\}}
+      \DeclareMathOperator{\lcm}{lcm}
+      \newcommand{\set}[1]{\{#1\}}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+      \usetikzlibrary{shapes.geometric,fit,backgrounds}
+    </latex-image-preamble>
+  </docinfo>
+  
+  <slideshow>
+    <title>PreTeXt</title>
+    <subtitle>Demo Slideshow</subtitle>
+    
+    <frontmatter>
+      <bibinfo>
+        <author>
+          <personname>Mitch Keller</personname>
+          <institution>University of Wisconsin<ndash/>Madison</institution>
+        </author>
+        <event>MATH 1234</event>
+        <date>Summer 2026</date>
+      </bibinfo>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+    </frontmatter>
+    
+    <xi:include href="sec_blank_spots.ptx"/>
+    <xi:include href="sec_sidebyside.ptx" />
+    <xi:include href="sec_pausing.ptx" />  
+    
+  </slideshow>
+</pretext>
