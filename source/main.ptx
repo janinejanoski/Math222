@@ -12,6 +12,8 @@
       \newcommand{\empset}{\{\}}
       \DeclareMathOperator{\lcm}{lcm}
       \newcommand{\set}[1]{\{#1\}}
+      <!-- This is a comment: can create a comment doing command / on keyboard -->
+       <!-- Try inserting packages here to see if it works -->
     </macros>
     <latex-image-preamble>
       \usepackage{tikz}
@@ -20,23 +22,23 @@
   </docinfo>
   
   <slideshow>
-    <title>PreTeXt</title>
-    <subtitle>Demo Slideshow</subtitle>
+    <title>Chapter 7</title>
+    <subtitle>Math 222</subtitle>
     
     <frontmatter>
       <bibinfo>
         <author>
-          <personname>Mitch Keller</personname>
-          <institution>University of Wisconsin<ndash/>Madison</institution>
+          <personname>Dr. Janine Janoski</personname>
+          <institution>University of Wisconsin-Madison</institution>
         </author>
-        <event>MATH 1234</event>
-        <date>Summer 2026</date>
       </bibinfo>
       <titlepage>
         <titlepage-items/>
       </titlepage>
     </frontmatter>
-    
+    <!-- The three horizontal lines next to explorer will let you do things like save as, i.e. the regular .tex stuff -->
+    <!-- To compile hit the Pretext on the bottom -->
+     <!-- Click on the map looking thing with the number 1, click the plus on the changed files listed -->
     <xi:include href="sec_blank_spots.ptx"/>
     <xi:include href="sec_sidebyside.ptx" />
     <xi:include href="sec_pausing.ptx" />  
