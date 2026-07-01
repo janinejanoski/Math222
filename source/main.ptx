@@ -38,7 +38,8 @@
     </frontmatter>
     <!-- The three horizontal lines next to explorer will let you do things like save as, i.e. the regular .tex stuff -->
     <!-- To compile hit the Pretext on the bottom -->
-     <!-- Click on the map looking thing with the number 1, click the plus on the changed files listed -->
+     <!-- Click on the map looking thing with the number 1, click the plus on the changed files listed, add a comment in message on what you edited, click commit, button changes to sync changes, click sync -->
+      <!-- Option z will make the text wrap -->
     <xi:include href="sec_blank_spots.ptx"/>
     <xi:include href="sec_sidebyside.ptx" />
     <xi:include href="sec_pausing.ptx" />  
