@@ -13,6 +13,7 @@
     </p>
     <p>
       <ul pause="yes">
+        <!-- ul is bulleted list and li is an item, ol is a numbered list, pause="yes" pauses for every -->
         <li >
           <p>
             The <term>floor function</term> <m>\lfloor\cdot\rfloor\colon \R\to\Z</m> is defined by
@@ -39,7 +40,7 @@
       A <term>tree</term> is a connected graph that has no cycles. A <term>forest</term> is a graph with no cycles.
     </p>
     
-    
+    <!-- We put pause="yes" here on the paragragh -->
     <p pause="yes">
       A <term>rooted tree</term> is a tree with a special vertex designated as the <term>root</term>. Computer scientists are not botanists, so they draw rooted trees with the root at the top. The <term>level</term> of a vertex is its distance from the root. The <term>height</term> of a tree is the largest vertex level.
     </p>
