@@ -51,4 +51,76 @@
       This comes next.
     </p>
   </slide>
+<!-- To automatically convert from tex to pretext: highlight what I've pasted in, shift/command/p, pretext convert to pretext-->
+<slide>
+  <title>Example </title>
+  <p>
+  <m>
+      \int x\cos(x) dx
+  </m>
+  </p>
+  <p pause="yes">
+    <m> u=x </m> 
+  </p>
+      <tabular>
+        <row>
+          <cell><m>u=x</m></cell> 
+         <cell><m>dv=\cos(x)dx</m></cell> 
+        </row>
+      </tabular>
+
+      <tabular>
+        <row top="none">
+            <cell><m>du = 1 dx = dx</m></cell>
+            <cell> <m>v= \int dv  =\int \cos(x)dx =\sin(x)</m></cell>
+          </row>
+        </tabular>
+    
+
+  <m>
+      \int x\cos(x) dx = uv-\int v \; du 
+  </m>
+  <m>
+      = x\sin(x) -\int \sin(x) dx = x\sin(x)  -(-\cos(x)) +C
+  </m>
+  <md>
+      =x\sin(x)+\cos(x)+C
+  </md>
+  </slide>
+
+  <!-- To gut and play with -->
+  <slide>
+  <title>Example Testing </title>
+  <p>
+  <m>
+      \int x\cos(x) dx
+  </m>
+  </p>
+    <sidebyside widths="30% 30% 25%">
+        <p pause="yes"><m>u=x</m></p>
+        <p pause="yes"><m>dv=\cos(x)dx</m></p>
+        <p></p>
+    </sidebyside>
+
+    <sidebyside widths="33% 28% 3% 16%">
+          <p pause="yes"><m>du = 1 dx = dx</m></p>
+          <p pause="yes"><m>v= \int dv  =\int \cos(x)dx</m> </p>
+          <p pause="yes"><m>=\sin(x)</m></p>
+          <p></p>
+    </sidebyside>
+    <sidebyside widths="17% 35% 38%">
+     <p pause="yes"><m>\int x\cos(x) dx </m></p>
+      <p pause="yes"> <m> = uv-\int v \; du </m> </p>
+      <p></p>
+     </sidebyside>
+    <sidebyside widths="14% 17% 15% 15% 10%">
+      <p pause="yes"><m>= x\sin(x)</m></p>
+      <p pause="yes"><m> -\int \sin(x) dx</m></p>
+      <p pause="yes"><m> = x\sin(x)  -(-\cos(x))</m></p>
+      <p pause="yes"><m> +C</m></p>
+      <p></p>
+     </sidebyside>
+     <p pause="yes"><m>\hspace{.3in}</m> <m>=x\sin(x)+\cos(x)+C
+  </m></p>
+  </slide>
 </section>

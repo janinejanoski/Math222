@@ -37,7 +37,7 @@
       </titlepage>
     </frontmatter>
     <!-- The three horizontal lines next to explorer will let you do things like save as, i.e. the regular .tex stuff -->
-    <!-- To compile hit the Pretext on the bottom -->
+    <!-- To compile hit the Pretext on the bottom, if you don't have a tab up, you need to click view full document -->
      <!-- Click on the map looking thing with the number 1, click the plus on the changed files listed, add a comment in message on what you edited, click commit, button changes to sync changes, click sync -->
       <!-- Option z will make the text wrap -->
     <xi:include href="Ch7S1IntByParts.ptx"/>
